@@ -1,4 +1,4 @@
-package Empresa;
+package Empresa;//modificado
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -20,9 +20,7 @@ public class Albergues extends Hospedagem implements Comparable<Albergues>, Aval
     		double _HchackOut,
     		boolean _permiteCancelarGratis, 
     		String _idiomasFalados, 
-    		int _avaliaçãoUsuario, 
-    		boolean _seCozinha, 
-    		int _quartos,
+    		int _avaliacaoUsuario, 
     		int _QuantMaxHospedesPorQuarto) 
     {
     	
@@ -34,8 +32,7 @@ public class Albergues extends Hospedagem implements Comparable<Albergues>, Aval
         this.HchackOut = _HchackOut;
         this.permiteCancelarGratis = _permiteCancelarGratis;
         this.idiomasFalados = _idiomasFalados;
-        this.avaliaçãoUsuario = _avaliaçãoUsuario;
-
+        this.avaliacaoUsuario = _avaliacaoUsuario;
         this.QuantMaxHospedesPorQuarto = _QuantMaxHospedesPorQuarto;
 	}
 
