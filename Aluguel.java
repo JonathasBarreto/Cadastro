@@ -21,7 +21,7 @@ public class Aluguel extends Hospedagem implements Comparable<Aluguel>, Avaliave
     		double _HchackOut,
     		boolean _permiteCancelarGratis, 
     		String _idiomasFalados, 
-    		int _avaliaçãoUsuario, 
+    		int _avaliacaoUsuario, 
     		boolean _seCozinha, 
     		int _quartos) 
     {
@@ -34,7 +34,7 @@ public class Aluguel extends Hospedagem implements Comparable<Aluguel>, Avaliave
         this.HchackOut = _HchackOut;
         this.permiteCancelarGratis = _permiteCancelarGratis;
         this.idiomasFalados = _idiomasFalados;
-        this.avaliaçãoUsuario = _avaliaçãoUsuario;
+        this.avaliacaoUsuario = _avaliacaoUsuario;
         this.seCozinha = _seCozinha;
         this.quartos = _quartos;
     }
