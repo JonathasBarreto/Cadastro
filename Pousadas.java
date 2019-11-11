@@ -20,7 +20,7 @@ public class Pousadas extends Hospedagem implements Comparable<Pousadas>, Avalia
     		double _HchackOut,
     		boolean _permiteCancelarGratis, 
     		String _idiomasFalados, 
-    		int _avaliaçãoUsuario, 
+    		int _avaliacaoUsuario, 
     		boolean _translados) 
     {
     	
@@ -32,7 +32,7 @@ public class Pousadas extends Hospedagem implements Comparable<Pousadas>, Avalia
         this.HchackOut = _HchackOut;
         this.permiteCancelarGratis = _permiteCancelarGratis;
         this.idiomasFalados = _idiomasFalados;
-        this.avaliaçãoUsuario = _avaliaçãoUsuario;
+        this.avaliacaoUsuario = _avaliacaoUsuario;
         this.translados = _translados;
 
     }
