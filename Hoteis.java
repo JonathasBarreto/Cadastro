@@ -21,7 +21,7 @@ public class Hoteis extends Hospedagem implements Comparable<Hoteis>, Avaliavel,
     		double _HchackOut,
     		boolean _permiteCancelarGratis, 
     		String _idiomasFalados, 
-    		int _avaliaçãoUsuario,
+    		int _avaliacaoUsuario,
     		boolean _translados, 
     		int _nEstrelas) 
     {
@@ -34,7 +34,7 @@ public class Hoteis extends Hospedagem implements Comparable<Hoteis>, Avaliavel,
         this.HchackOut = _HchackOut;
         this.permiteCancelarGratis = _permiteCancelarGratis;
         this.idiomasFalados = _idiomasFalados;
-        this.avaliaçãoUsuario = _avaliaçãoUsuario;
+        this.avaliacaoUsuario = _avaliacaoUsuario;
         this.translados = _translados;
         this.nEstrelas = _nEstrelas;
     }
