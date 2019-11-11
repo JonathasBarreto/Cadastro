@@ -1,4 +1,4 @@
-package Aplicacao;
+package Aplicacao;//modificado
 
 import java.util.*;
 import Empresa.Albergues;
@@ -36,9 +36,9 @@ public class Aplicacao {
         Carro car12 = new Carro(TIPO.LUXO,"gg12", true, 14, "gg", 12.99, true, "ggp23", 20, 14);
         
         //hospedagens
-        Albergues alb1 = new Albergues("PP1",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, true, 11, 11);
-        Albergues alb2 = new Albergues("PP2",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, true, 11, 11);
-        Albergues alb3 = new Albergues("PP3",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, true, 11, 11);
+        Albergues alb1 = new Albergues("PP1",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, 11);
+        Albergues alb2 = new Albergues("PP2",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, 11);
+        Albergues alb3 = new Albergues("PP3",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, 11);
         
         Aluguel alu1 = new Aluguel("PP4",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, true, 11);
         Aluguel alu2 = new Aluguel("PP5",16.12 , 11, true, 1.12, 2.12, true, "gg", 11, true, 11);
@@ -389,7 +389,7 @@ public class Aplicacao {
                 	        		p.getHchackOut(),//double
                 	        		p.isPermiteCancelarGratis(),//boolean
                 	        		p.getIdiomasFalados(),//String
-                	        		p.getAvaliaçãoUsuario(),//int
+                	        		p.getAvaliacaoUsuario(),//int
                 	        		p.isTranslados(),//boolean
                 	        		p.getnEstrelas()//int
                 	        		);
@@ -439,7 +439,7 @@ public class Aplicacao {
                 	        		p.getHchackOut(),//double
                 	        		p.isPermiteCancelarGratis(),//boolean
                 	        		p.getIdiomasFalados(),//String
-                	        		p.getAvaliaçãoUsuario(),//int
+                	        		p.getAvaliacaoUsuario(),//int
                 	        		p.isTranslados()//boolean
                 	        		);
                 	        
@@ -489,7 +489,7 @@ public class Aplicacao {
                 	        		p.getHchackOut(),//double
                 	        		p.isPermiteCancelarGratis(),//boolean
                 	        		p.getIdiomasFalados(),//String
-                	        		p.getAvaliaçãoUsuario(),//int
+                	        		p.getAvaliacaoUsuario(),//int
                 	        		p.isSeCozinha(),//boolean
                 	        		p.getQuartos()//int
                 	        		);
@@ -539,7 +539,7 @@ public class Aplicacao {
                 	        		p.getHchackOut(),//double
                 	        		p.isPermiteCancelarGratis(),//boolean
                 	        		p.getIdiomasFalados(),//String
-                	        		p.getAvaliaçãoUsuario(),//int
+                	        		p.getAvaliacaoUsuario(),//int
                 	        		p.getQuantMaxHospedesPorQuarto()//int
                 	        		);
                 	        
